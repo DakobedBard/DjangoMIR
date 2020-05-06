@@ -12,16 +12,11 @@ import { NbSecurityModule } from '@nebular/security';
 import { ThemeModule } from './@theme/theme.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { ProductDetailComponent } from './components/product-detail/product-detail.component'
-import { ProductListComponent } from './components/product-list/product-list.component'
+
 import { NbAuthService } from '@nebular/auth';
-import { NbAuthModule} from './auth/auth.module'
 import { CoreModule } from './@core/core.module';
-import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component'
-import { AddToCartComponent } from './components/add-to-cart/add-to-cart.component'
-import { OrderReviewComponent } from './components/order-review/order-review.component'
-import { CustomerInfoComponent } from './components/customer-information/customer-info.component'
-import { PaymentInfoComponent } from './components/payment-info/payment-info.component'
+import { ProductListComponent } from './components/product-list/product-list.component'
+
 import {
   NbChatModule,
   NbDatepickerModule,
@@ -34,13 +29,8 @@ import {
 
 @NgModule({
   declarations: [AppComponent,
-    ProductListComponent,
-    ProductDetailComponent,
-    ShoppingCartComponent,
-    AddToCartComponent,
-    OrderReviewComponent,
-    CustomerInfoComponent,
-    PaymentInfoComponent
+    ProductListComponent
+
   ],
   imports: [
     FormsModule,

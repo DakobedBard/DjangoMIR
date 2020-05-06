@@ -2,15 +2,15 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'Shoes',
+    title: 'Tabs',
     icon: 'shopping-cart-outline',
-    link: '/pages/products',
+    link: '/pages/tabs',
     home: true,
   },
   {
-    title: 'Shopping Cart',
+    title: 'Upload',
     icon: 'shopping-cart-outline',
-    link: '/pages/cart',
+    link: '/pages/upload',
   },
   {
     title: 'Auth',
